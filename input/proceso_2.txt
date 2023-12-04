@@ -1,0 +1,16 @@
+# proceso_2
+#
+# Nro Instrucción	Tipo de Instrucción
+1   I
+2	ES 2
+3	I
+4	I
+5	ES 4
+6	I
+7   I
+8   I
+9   I
+10  ES 3
+11  ES 4
+12  I
+13  F

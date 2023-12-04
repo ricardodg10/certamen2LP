@@ -1,0 +1,23 @@
+# TiempoDeCreacion: Cantidad de segundos que se requiere que pasen para que se creen los procesos en la linea correspondiente del .txt
+# NombreArchivo(s)Proceso(s): Son los nombres de los archivos donde se especifican las instrucciones de cada proceso a crear
+#
+# Contenido de Ejemplo
+#
+# TiempoDeCreacion NombreArchivo(s)Proceso(s) 
+# 1 proceso_1
+# 10 proceso_2 proceso_3
+# 15 proceso_4
+#
+# Comentario de explicacion de ejemplo
+# 1 proceso_1: Luego de 1 segundo, se creará el primer proceso, cuyas instrucciones se encuentran en el archivo proceso_1.txt
+# 10 proceso_2 proceso_3: Luego de 30 segundos, se crearán los procesos 2 y 3, cuyas instrucciones se encuentran en los archivos proceso_2.txt y proceso_3.txt, respectivamente 
+# 50 proceso_4: Luego de 50 segundos, se creará el cuarto proceso, cuyas instrucciones se encuentran en el archivo proceso_4.txt
+#
+#
+#
+# ----------------------------------------------------------------------------------
+#
+# TiempoDeCreacion NombreArchivo(s)Proceso(s) 
+10 proceso_1
+20 proceso_2 proceso_3
+35 proceso_4

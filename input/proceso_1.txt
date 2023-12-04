@@ -1,0 +1,9 @@
+# proceso_1
+#
+# Nro Instrucción	Tipo de Instrucción
+1	I
+2	I
+3	ES 7
+4	I
+5	I
+6	F
