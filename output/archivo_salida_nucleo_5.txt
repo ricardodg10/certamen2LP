@@ -1,0 +1,11 @@
+# Tiempo de CPU | Tipo de Instruccion | Proceso / Despachador | Valor Program Counter
+91 PULL Dispatcher 103
+94 LOAD-proceso_2 Dispatcher 104
+96 EXEC-proceso_2 Dispatcher 105
+99 I proceso_2 306
+102 I proceso_2 307
+106 I proceso_2 308
+110 I proceso_2 309
+114 ES 3 proceso_2 310
+117 ST proceso_2 Dispatcher 101
+123 PUSH_Bloqueado proceso_2 Dispatcher 102

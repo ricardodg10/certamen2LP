@@ -1,0 +1,73 @@
+# Tiempo de CPU | Tipo de Instruccion | Proceso / Despachador | Valor Program Counter
+4 PULL Dispatcher 103
+5 LOAD-proceso_1 Dispatcher 104
+6 EXEC-proceso_1 Dispatcher 105
+9 I proceso_1 201
+12 I proceso_1 202
+16 ES 10 proceso_1 203
+20 ST proceso_1 Dispatcher 101
+23 PULL Dispatcher 103
+26 LOAD-proceso_4 Dispatcher 104
+28 EXEC-proceso_4 Dispatcher 105
+31 ES 2 proceso_4 501
+33 ST proceso_4 Dispatcher 101
+36 PUSH_Bloqueado proceso_1 Dispatcher 102
+40 PUSH_Bloqueado proceso_4 Dispatcher 102
+42 PULL Dispatcher 103
+44 LOAD-proceso_6 Dispatcher 104
+45 EXEC-proceso_6 Dispatcher 105
+47 I proceso_6 701
+49 I proceso_6 702
+52 ES 1 proceso_6 703
+55 ST proceso_6 Dispatcher 101
+58 PUSH_Bloqueado proceso_6 Dispatcher 102
+61 PULL Dispatcher 103
+64 LOAD-proceso_3 Dispatcher 104
+67 EXEC-proceso_3 Dispatcher 105
+69 I proceso_3 403
+71 I proceso_3 404
+74 I proceso_3 405
+77 I proceso_3 406
+80 I proceso_3 407
+84 ST proceso_3 Dispatcher 101
+88 PUSH_Listo proceso_3 Dispatcher 103
+118 PULL Dispatcher 103
+120 LOAD-proceso_5 Dispatcher 104
+122 EXEC-proceso_5 Dispatcher 105
+125 I proceso_5 609
+128 I proceso_5 610
+130 I proceso_5 611
+133 I proceso_5 612
+136 I proceso_5 613
+139 ST proceso_5 Dispatcher 101
+143 PUSH_Listo proceso_5 Dispatcher 103
+163 PULL Dispatcher 103
+166 LOAD-proceso_2 Dispatcher 104
+167 EXEC-proceso_2 Dispatcher 105
+169 I proceso_2 312
+171 F proceso_2 313
+177 PULL Dispatcher 103
+179 LOAD-proceso_3 Dispatcher 104
+181 EXEC-proceso_3 Dispatcher 105
+183 I proceso_3 417
+185 ES 3 proceso_3 418
+187 ST proceso_3 Dispatcher 101
+190 PUSH_Bloqueado proceso_3 Dispatcher 102
+194 PULL Dispatcher 103
+195 LOAD-proceso_3 Dispatcher 104
+196 EXEC-proceso_3 Dispatcher 105
+197 I proceso_3 419
+198 I proceso_3 420
+199 ES 7 proceso_3 421
+200 ST proceso_3 Dispatcher 101
+201 PULL Dispatcher 103
+202 LOAD-proceso_4 Dispatcher 104
+203 EXEC-proceso_4 Dispatcher 105
+204 PUSH_Bloqueado proceso_3 Dispatcher 102
+205 I proceso_4 515
+206 I proceso_4 516
+207 F proceso_4 517
+208 PULL Dispatcher 103
+209 LOAD-proceso_3 Dispatcher 104
+210 EXEC-proceso_3 Dispatcher 105
+211 F proceso_3 422

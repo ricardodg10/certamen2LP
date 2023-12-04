@@ -1,0 +1,47 @@
+# Tiempo de CPU | Tipo de Instruccion | Proceso / Despachador | Valor Program Counter
+15 PULL Dispatcher 103
+19 LOAD-proceso_3 Dispatcher 104
+22 EXEC-proceso_3 Dispatcher 105
+25 I proceso_3 401
+27 ES 5 proceso_3 402
+30 ST proceso_3 Dispatcher 101
+38 PUSH_Bloqueado proceso_3 Dispatcher 102
+53 PULL Dispatcher 103
+56 LOAD-proceso_4 Dispatcher 104
+59 EXEC-proceso_4 Dispatcher 105
+62 ES 4 proceso_4 502
+65 ST proceso_4 Dispatcher 101
+72 PUSH_Bloqueado proceso_4 Dispatcher 102
+75 PULL Dispatcher 103
+78 LOAD-proceso_1 Dispatcher 104
+81 EXEC-proceso_1 Dispatcher 105
+85 I proceso_1 204
+89 I proceso_1 205
+92 F proceso_1 206
+104 PULL Dispatcher 103
+108 LOAD-proceso_3 Dispatcher 104
+112 EXEC-proceso_3 Dispatcher 105
+116 I proceso_3 408
+119 I proceso_3 409
+121 I proceso_3 410
+124 ES 2 proceso_3 411
+127 ST proceso_3 Dispatcher 101
+131 PUSH_Bloqueado proceso_3 Dispatcher 102
+134 PULL Dispatcher 103
+137 LOAD-proceso_2 Dispatcher 104
+140 EXEC-proceso_2 Dispatcher 105
+144 ES 4 proceso_2 311
+147 ST proceso_2 Dispatcher 101
+149 PULL Dispatcher 103
+152 LOAD-proceso_5 Dispatcher 104
+155 EXEC-proceso_5 Dispatcher 105
+156 PUSH_Bloqueado proceso_2 Dispatcher 102
+158 I proceso_5 614
+161 I proceso_5 615
+164 F proceso_5 616
+186 PULL Dispatcher 103
+188 LOAD-proceso_4 Dispatcher 104
+189 EXEC-proceso_4 Dispatcher 105
+191 ES 6 proceso_4 514
+192 ST proceso_4 Dispatcher 101
+193 PUSH_Bloqueado proceso_4 Dispatcher 102

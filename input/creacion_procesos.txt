@@ -18,5 +18,7 @@
 # ----------------------------------------------------------------------------------
 #
 # TiempoDeCreacion NombreArchivo(s)Proceso(s) 
-3 proceso_1 proceso_2 proceso_3
-20 proceso_4 
+2 proceso_1 proceso_2
+10 proceso_3
+15 proceso_4 proceso_5
+16 proceso_6
